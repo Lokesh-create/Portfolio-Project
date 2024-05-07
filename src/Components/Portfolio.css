@@ -1,0 +1,304 @@
+.portfolio-text h2
+ {
+   margin-left:35rem;
+   margin-top:5rem;
+ }
+ .portfolio-text p{
+   width:45%;
+   margin-left:15rem;
+   margin-top:20px;
+ }
+
+   .image-container
+    {
+        height:185vh;
+        width:90vw;
+        margin-left: 8rem;
+        margin-top:8rem;
+    }
+    .image-container img:hover {
+        cursor: pointer;
+        transform: translateY(-5%);
+    
+      }
+      .image-container img {
+        transition: transform 0.5s ease-in-out;
+      }      
+     
+    .image-container img{
+        position: relative;
+        box-shadow: 2px 2px 50px 2px  rgb(228, 220, 220);
+    }
+     .boat{
+        height:50vh;
+        width:45vw;
+        left:1.5rem;
+        border-radius:1rem;
+    }
+    .horse{
+        height:56vh;
+        width:22vw;
+        top:1rem;
+        left:5rem;
+        border-radius:1rem;   
+    }
+    .orange{
+        height:40vh;
+        width:40vw;
+        top:3.5rem;
+        left:1.5rem;
+        border-radius: 1rem;
+    }
+    .tiger
+    {
+        height:40vh;
+        width: 40vw;
+        left:5rem;
+        top:3.5rem;
+        border-radius: 1rem;
+    } 
+    .waterfall{
+        height: 56vh;
+        width:22vw;
+        top:8rem;
+        left:5rem;
+        border-radius:1rem; 
+    }
+
+    .mountain{
+        height:50vh;
+        width:45vw;
+        top:5.7rem;
+        left:10rem;
+        border-radius:1rem;
+    }  
+   
+  @media (max-width:465px)
+    { 
+      .portfolio-text h2 
+      {
+        text-align: center;  
+        margin: 2rem auto; 
+        max-width: 90%;  
+        width: auto;  
+      }
+        .portfolio-text p{
+          font-size: 0.7rem;
+          min-width: 85%;
+          margin-left: -8rem;
+        }
+        .image-container
+        {
+            display: flex;
+            flex-direction: column;
+            margin-top: 1rem;
+            margin-left:1rem;
+            margin: auto;
+        }
+        .boat{
+          max-width:60vw;
+          width: auto;
+        }
+        .horse{
+          max-height: 48vh;
+          max-width: 45vw;
+          width: auto;
+          left:3rem;
+        }
+        .orange{
+          width: 58vw;
+          left:1rem;
+        }
+        .tiger{
+          width: 58vw;
+           margin-top: 1rem;
+          left:1rem;
+        }
+        .waterfall{
+          width: 55vw;
+          left:1.5rem;
+          margin-top: -2rem;
+        }
+        .mountain{
+          width: 55vw;
+          left:2rem;
+          margin-top:5rem;
+        }
+    }
+@media(min-width:466px) and (max-width:600px)
+{
+    
+  .portfolio-text h2 
+  {
+    text-align: center;  
+    margin: 4rem auto; 
+    min-width:185%;
+    width: auto;  
+    font-size: 6rem;
+
+  }
+    .portfolio-text p{
+      font-size: 1.3rem;
+      max-width:100%;
+      min-width: 155%;
+      margin-left: -5rem;
+    }
+    .image-container
+    {
+        display: flex;
+        flex-direction: column;
+        margin-top: 1rem;
+        margin: auto;
+    }
+    .boat{
+      max-width:90vw;
+      left:14rem;
+      width: auto;
+    }
+    .horse {
+      max-height: 56vh;
+      max-width: 50vw;
+      width: auto;
+      left: 19rem;
+    }
+    .orange {
+      width: 95vw;
+      left: 13rem;
+      height: 51vh;
+  }
+  .tiger {
+    width: 91vw;
+    margin-top: 1rem;
+    left: 13rem;
+    height: 50vh;
+}
+.waterfall {
+  width: 89vw;
+  left: 13.5rem;
+  margin-top: -2rem;
+  height: 57vh;
+}
+    .mountain{
+      width: 93vw;
+      left:13rem;
+      margin-top:5rem;
+    } 
+}
+
+ @media (min-width:601px) and (max-width:768px)
+{
+       
+  .portfolio-text h2 
+  {
+    text-align: center;  
+    margin: 4rem auto; 
+    min-width:185%;
+    width: auto;  
+    font-size: 7rem;
+
+  }
+    .portfolio-text p{
+      font-size: 1.7rem;
+      max-width:100%;
+      min-width: 165%;
+      margin-left: -5rem;
+    }
+     .image-container{
+      position:relative;
+      width: 133vw;
+      height: 209vh; 
+    }
+    .boat{
+      max-width: 68vw;
+      width: auto;
+      left:5rem;
+    }  
+    .horse {
+      width: 37vw;
+      left: 18rem;
+      height: 69vh;
+      width: auto;
+    }
+     
+    .orange {
+        height: 45vh;
+        width: 72vw;
+        left: 4.5rem;
+        width: auto;
+    }
+    .tiger {
+        left: 14em;
+        width: 68vw;
+        height: 46vh;
+        
+    }
+    .waterfall{
+      height: 70vh;
+      width: 45vw;
+    }
+    .mountain {
+      height: 56vh;
+      width: 68vw;
+      top: 5.1rem;
+      left: 18rem;
+    }  
+  } 
+
+@media(min-width:769px) and (max-width:1024px)
+{
+         
+  .portfolio-text h2 
+  {
+    text-align: center;  
+    margin: 4rem auto; 
+    min-width:145%;
+    width: auto;  
+    font-size: 7rem;
+
+  }
+    .portfolio-text p{
+      font-size: 1.7rem;
+      max-width:100%;
+      min-width: 120%;
+      margin-left: -5rem;
+    }
+     .image-container{
+      position:relative;
+      width: 115vw;
+      height: 209vh; 
+    }
+    .boat{
+      max-width: 68vw;
+      width: auto;
+      left:5rem;
+    }  
+    .horse {
+      width: 37vw;
+      left: 18rem;
+      height: 69vh;
+      width: auto;
+    }
+     
+    .orange {
+        height: 45vh;
+        width: 72vw;
+        left: 4.5rem;
+        width: auto;
+    }
+    .tiger {
+        left: 14em;
+        width: 58vw;
+        height: 46vh;
+        
+    }
+    .waterfall{
+      height: 70vh;
+      width: 45vw;
+    }
+    .mountain {
+      height: 56vh;
+      width: 58vw;
+      top: 5.1rem;
+      left: 14rem;
+    }   
+}

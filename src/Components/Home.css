@@ -1,0 +1,185 @@
+.container
+{
+    display: flex;
+}
+.profile
+{
+    margin-top:-3rem;
+    margin-left:9rem;
+}
+ h2{
+    margin-left:9rem;
+    color:#002D5B;
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style:normal;
+    font-size:4.5rem;
+} 
+.container .text p
+{   
+    text-align: left;
+    color:rgb(204, 19, 19);
+}
+button
+{
+    background-color: #EC5B53;
+    border-radius: .3rem;
+    padding: .5rem .5rem;
+    color:white;
+    border:none;
+    margin-left:9rem;
+}
+.social-tags 
+{
+     display:flex;
+     gap:1rem;
+     margin-top:2rem;
+     margin-left:9rem;    
+}
+a{
+    color:#002D5B;
+ }
+
+ @media (max-width:465px)
+ {
+    .container
+    {
+        min-width:00px;
+        max-width:100%;
+        flex-direction: column;
+    }
+    .text {
+      margin-left:-1rem;
+    }
+    h2
+     {
+        min-width:250px;
+        max-width:100%;
+        font-size:2.5rem;
+        margin-left:-4rem; 
+       
+     }
+     p
+     { 
+      margin-right:3rem;
+      font-size: 0.8rem;
+       display: block;
+       max-width: 100%;
+     }
+      .text button
+     {   
+      
+         width: 5rem;
+         font-size:0.8rem;
+         padding:0.4rem; 
+         display:flex;
+         margin-left: -1rem;
+         transform: translateX(30%);
+     }
+     .social-tags 
+     {
+          display:flex;
+          gap:1rem;
+          margin-left: -3rem;
+         transform: translateX(30%);
+         
+     } 
+     .img{
+        min-width:0px;
+        max-width:100%;
+     }
+     .profile{
+        margin-top: 1rem;
+        position: absolute;
+        left:-80px;
+        height:18rem;
+     } 
+     .profile{
+      margin-top: 1rem;
+      position: absolute;
+      left:-80px;
+      height:20rem;
+   } 
+ }  
+ 
+ @media (min-width:466px) and (max-width:699px)
+ {
+     
+    .container .text{
+        margin-left:-5rem;
+         
+    }   
+     h2
+     {
+        overflow:visible;
+        min-width:466px;
+        max-width:100%;
+        font-size:5rem;   
+     }
+     p
+     {  
+        font-size:2rem;
+     }
+     button
+     {
+        font-size:1.5rem;
+        padding:1.2rem;
+     }
+     .social-tags 
+     {
+          display:flex;
+          gap:1rem;
+          justify-content: flex-start; 
+          font-size:1.9rem;
+     } 
+     .img{
+        min-width:466px;
+        max-width:100%;
+     }
+     .profile{
+        margin-left:28rem;
+        height:50rem;
+     }
+ }
+   
+@media (min-width:700px) and (max-width:1024px)
+{   
+   .container .text{
+      margin-left:-5rem;
+  } 
+  h2
+  {
+     overflow:visible;
+     min-width:466px;
+     max-width:100%;
+     font-size:5rem;   
+  }
+  .container .text p
+  {  
+       
+      font-size:1.5rem;   
+  }
+  button
+  {
+     font-size:1.5rem;
+     padding:1.2rem;
+  }
+  .social-tags 
+  {
+       display:flex;
+       gap:1rem;
+       justify-content: flex-start; 
+       font-size:1.9rem;
+  } 
+  .img{
+     min-width:466px;
+     max-width:100%;
+  }
+  .profile{
+     margin-left:25rem;
+     height:52rem;
+  }
+}  
+   
+  

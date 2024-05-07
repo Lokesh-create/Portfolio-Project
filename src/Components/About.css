@@ -1,0 +1,265 @@
+.first_section 
+{
+    display: flex;
+}
+.img 
+{
+    height: 26rem;    
+}
+ .text
+ {
+    width: 50%;
+    margin-left:100px;
+    position:relative;
+    top:0px;    
+ }
+ h3{
+    text-align: center;
+    margin-left: 100px;
+    font-size: 2.5rem;
+    color:#002D5B;
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style:normal;
+ } 
+ p{
+    padding-left:150px;
+    width:70%;
+    text-align: center;
+    font-weight:normal;
+    color:rgb(204, 19, 19);
+ }
+
+ .second-section
+ {
+      margin-top:100px;
+ }
+ .second-section h3{
+   margin-left:0px;
+ }
+ .second-section p{  
+    margin-left:85px;
+ }
+   
+ @media (max-width:375px)
+ {
+  .first_section
+  {
+      flex-direction: column;
+      overflow: hidden;
+      max-width:375px;
+  } 
+  .img
+  {
+      margin:auto;
+      width:20rem;
+      height:20rem;
+  }
+  .text h3
+  {
+    min-width:300px;
+    max-width:70%;
+    margin-left:-5rem;
+   
+  }
+  .text p
+  {
+    min-width:240px;
+    max-width:100%;
+    margin-left:-12rem; 
+  }
+  .second-section p
+  {
+    min-width:100px;
+    max-width:100%;
+    margin-left: -7rem;
+  }
+ }
+ @media(min-width:375px) and (max-width:425px)
+ {
+  .first_section
+  {
+      flex-direction: column;
+      overflow: hidden;
+      max-width:425px;
+  } 
+  .img
+  {
+      margin:auto;
+      height:19rem;
+  }
+  .text h3
+  {
+    min-width:300px;
+    max-width:70%;
+    margin-left:-2rem;
+  }
+  .text p
+  {
+    min-width:300px;
+    max-width:100%;
+    margin-left:-12.5rem; 
+  }
+  .second-section p
+  {
+    min-width:100px;
+    max-width:100%;
+    margin-left:-5rem;
+  }
+ }
+ @media (min-width:426px) and (max-width:465px)
+ {
+     .first_section
+     {
+      flex-direction: column;
+      overflow: hidden;
+      max-width:100%;
+     }
+     .img
+     {
+      height:25rem;
+     }
+     .text h3
+     {
+       min-width:300px;
+       max-width:70%;
+       margin-left:-2rem;
+       font-size:3rem;
+     }
+     .text p
+     {
+       min-width:300px;
+       max-width:100%;
+       font-size:1rem;
+       margin-left:-12.5rem; 
+     }
+    .second-section p
+    {
+    min-width:100px;
+    max-width:100%;
+    margin-left:-5rem;
+    }
+ }
+ @media (min-width:466px) and (max-width:699px)
+ {
+  .first_section
+  {
+    width: 100%;
+  }
+    
+    .img{
+      height:35rem;
+    }
+    .text{
+      min-width: 400px;
+      max-width: 100%;
+    }
+    .text h3
+    {
+      min-width:300px;
+      max-width:100%;
+      margin-left:11rem;
+      font-size:4rem;
+    }
+    .text p
+    {
+      min-width:500px;
+      max-width:100%;
+      font-size:1.5rem;
+      margin-left:-3rem; 
+    }
+    .second-section h3
+    {
+        font-size:4rem;
+        margin-left: 15rem;
+        min-width:780px;   
+    }
+    .second-section p
+    {
+    min-width:200px;
+    max-width:100%;
+    margin-left:15rem;
+    font-size:1.5rem;
+   }
+ }
+
+ @media (min-width:700px) and (max-width:768px)
+ {
+    .first_section
+    {
+      max-width: 100%;
+    }
+    .img{
+      height: 35rem;
+    }
+    .text{
+      max-width: 100%;
+    }
+    .text h3
+    {
+      min-width:350px;
+      max-width:90%;
+      margin-left:15rem;
+      font-size:4.5rem;
+    }
+    .text p
+    {
+      min-width:520px;
+      max-width:100%;
+      font-size:1.5rem;
+      margin-left:1rem; 
+    }
+    .second-section h3
+    {
+        font-size:4rem;
+        margin-left: 15rem;
+        min-width:780px;
+        
+    }
+    .second-section p
+    {
+    min-width:200px;
+    max-width:100%;
+    margin-left:15rem;
+    font-size:1.4rem;
+   }
+ }
+  @media (min-width:769px) and (max-width:1024px)
+ {
+  .first_section
+  {
+    max-width:100%;
+  }
+  .img{
+    height:35rem;
+  }
+  .text h3
+  {
+    min-width:500px;
+    max-width:80%;
+    margin-left:11.7rem;
+    font-size:4rem;
+  }
+  .text p
+  {
+    min-width:470px;
+    max-width:100%;
+    font-size:1.4rem;
+    margin-left:1rem; 
+  }
+  .second-section h3
+  {
+      font-size:4rem;
+      margin-left: 15rem;
+      min-width:780px;
+      
+  }
+  .second-section p
+  {
+  min-width:200px;
+  max-width:100%;
+  margin-left:15rem;
+  font-size:1.4rem;
+ }
+ } 

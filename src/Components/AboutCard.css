@@ -1,0 +1,171 @@
+.card 
+{
+  width: 80vw;
+  height: 23vh;
+  background-color: white;
+  margin: auto;
+  border-radius:2.8rem;
+  display: flex;
+  align-items: center;
+  margin-top:4rem;
+  margin-bottom:6rem;
+  box-shadow: 0.8px 0.8px 5px 0px rgb(204, 19, 19);
+}
+.icon{
+  position: relative;
+  top:5px;
+  left: 80px;
+  color:rgb(204, 19, 19);
+   
+}
+.card-name {
+  margin-left:60px;
+  margin-top:20px;
+  color:rgb(204, 19, 19);
+}
+.left{
+  height:100%;
+  width:200px;
+  
+}
+.right{
+  margin-left:25px;
+  width:70%;
+  
+}
+.card p {
+  text-align: left;
+  margin-top:0px;
+}
+
+.card .profile-circle {
+  border:2px solid red;
+  height:4rem;
+  width: 4rem;
+  border-radius:60%;
+  box-shadow: 0px 0px 5px rgba(212, 30, 30, 0.966);
+  /* background: url('main_img.png') no-repeat center center/cover; */
+  margin-left: 55px;
+  margin-top:15px;
+}
+.line {
+  width: 5.5rem;
+  border-bottom: 1px solid rgb(204, 19, 19);
+  position: relative;
+  top:2rem;
+  margin: auto;
+}
+@media(min-width:0px) and (max-width:314px)
+{
+  .card{
+    flex-direction: column;
+    
+    min-height: 70vh;
+    max-height: 10vh;
+    min-width: 100px;
+    max-width: 100%;
+   } 
+   .right .card-text p{
+    position: relative;
+    bottom:2.4rem;
+    left:-10rem;
+    min-width: 110px;
+    max-width: 110%;
+   }
+   .line{
+    position:relative;
+    top:-1rem;
+    right:1rem;
+    width:3rem;
+   }
+} 
+@media (min-width:315px) and (max-width:466px)
+{
+   .card{
+    flex-direction: column;
+    height:70vh;
+    min-width: 100px;
+    max-width: 100%;
+   }  
+   .card-name{
+  margin-left:3.5rem;
+   }
+   .right .card-text  p
+   {
+      position: relative;
+      top:-6rem;
+      left:-12rem;
+     min-width: 250px;
+     max-width:100%;
+   }
+   .line{
+    position: relative;
+    top:-1rem;
+    left:-1rem;
+   }
+   
+}
+
+@media (min-width:467px) and (max-width:768px)
+{ 
+   .card
+   {
+    margin-left:3rem;
+      height: 50vh;
+      width: 125vw;
+      min-width:215%;
+      max-width:160%;
+   }
+   .icon
+   {
+      font-size: 2rem;
+   }
+   .card-name{
+    font-size: 1.8rem;
+   }
+   .card p{
+    min-width: 0px;
+    max-width: 100%;
+    font-size: 1.7rem;
+    margin-left:2rem;
+   }
+   .card .profile-circle 
+   {
+    height: 5.5rem;
+    width: 5.5rem;
+   }
+
+}
+ 
+@media (min-width:769px) and (max-width:1024px)
+{ 
+   .card
+   {
+      margin-left:1rem;
+      height:40vh;
+      width: 140vw;
+      min-width:150%;
+      max-width:150%;
+   }
+   .icon
+   {
+      font-size: 2rem;
+   }
+   .card-name{
+    font-size: 1.9rem;
+   }
+   .card p{
+    min-width: 0px;
+    max-width: 100%;
+    font-size: 1.7rem;
+    margin-left:2rem;
+   }
+   .card .profile-circle 
+   {
+    height: 6rem;
+    width: 6rem;
+   }
+}
+ 
+ 
+ 
